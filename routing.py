@@ -5,7 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from old.vertere.extract import (
+from extract import (
     ALL_INPUT_EXTS,
     AUDIO_EXTS,
     PDF_EXTS,
@@ -14,8 +14,8 @@ from old.vertere.extract import (
     extract_audio_from_video,
     extract_text_from_pdf,
 )
-from old.vertere.stt import transcribe
-from old.vertere.tts import synthesize
+from stt import transcribe
+from tts import synthesize
 
 
 def process(
